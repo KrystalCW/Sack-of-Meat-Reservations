@@ -1,7 +1,7 @@
 body {
     /* max-width: 960px; */
     margin: 0 auto;
-    background-image: url(../images/farm.jpg);
+    background-image: url(./images/farm.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,7 +15,8 @@ body {
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
-		1px 1px 0 #000;
+        1px 1px 0 #000;
+    margin: 0 auto;
 }
 
 #header {
@@ -28,11 +29,7 @@ body {
 
 .btn {
     color: #eac416;
-    /* text-shadow:
-		-1px -1px 0 #cb0,
-		1px -1px 0 #cb0,
-		-1px 1px 0 #cb0,
-		1px 1px 0 #cb0; */
+    background-color: white;
 }
 
 .footer {
