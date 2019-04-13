@@ -15,29 +15,19 @@ app.use(express.static('public'));
 
 // Star Wars Characters (DATA)
 // =============================================================
-var characters = [
+let reservations = [
   {
-    routeName: "yoda",
     name: "Yoda",
-    role: "Jedi Master",
-    age: 900,
-    forcePoints: 2000
+    number: 5038300199,
+    email: 'ryangrunest45@gmail.com',
+    uniqueID: 1234
   },
-  {
-    routeName: "darthmaul",
-    name: "Darth Maul",
-    role: "Sith Lord",
-    age: 200,
-    forcePoints: 1200
-  },
-  {
-    routeName: "obiwankenobi",
-    name: "Obi Wan Kenobi",
-    role: "Jedi Master",
-    age: 55,
-    forcePoints: 1350
-  }
 ];
+let waitlist = [
+  {
+
+  }
+]
 
 // Routes
 // =============================================================
