@@ -8,9 +8,9 @@ body {
     background-size: cover;
 }
 
-.jumbotron {
+.jumbotron-fluid {
     border-radius: 0;
-    background-color: #a2caeb;
+    color: white;
 }
 
 #header {
@@ -19,4 +19,8 @@ body {
     margin-left: 0;
     padding-left: 0;
     padding-right: 0;
+}
+
+#footer {
+    position: fixed;
 }
