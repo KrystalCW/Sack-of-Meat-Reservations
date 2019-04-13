@@ -31,8 +31,12 @@ h1 {
     font-family: 'Kaushan Script', cursive;
 }
 
-h3 {
+h3, h4, h2 {
     font-family: 'Quicksand', sans-serif;
+}
+
+h4, .form-group, h2 {
+    color: white;
 }
 
 .btn {
@@ -41,8 +45,11 @@ h3 {
     font-family: 'Quicksand', sans-serif;
 }
 
-#add-btn {
-    margin-bottom: 10px;
+#main-body {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .footer {
