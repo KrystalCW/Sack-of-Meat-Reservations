@@ -1,0 +1,22 @@
+body {
+    /* max-width: 960px; */
+    margin: 0 auto;
+    background-image: url(../images/farm.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.jumbotron {
+    border-radius: 0;
+    background-color: #a2caeb;
+}
+
+#header {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
