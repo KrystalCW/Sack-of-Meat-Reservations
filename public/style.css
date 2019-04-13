@@ -41,6 +41,10 @@ h3 {
     font-family: 'Quicksand', sans-serif;
 }
 
+#add-btn {
+    margin-bottom: 10px;
+}
+
 .footer {
     position:fixed;
     left:0px;
@@ -51,6 +55,7 @@ h3 {
     background-color: #eac416;
     font-family: 'Quicksand', sans-serif;
     color: black;
+    margin-top: 10px;
  }
 
  a {
