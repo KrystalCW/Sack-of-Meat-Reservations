@@ -26,9 +26,18 @@ body {
     padding-right: 0;
 }
 
+h1 {
+    font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+    font-family: 'Quicksand', sans-serif;
+}
+
 .btn {
     color: #eac416;
     background-color: white;
+    font-family: 'Quicksand', sans-serif;
 }
 
 .footer {
@@ -38,4 +47,11 @@ body {
     height:30px;
     width:100%;
     text-align: center;
+    background-color: #eac416;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+ }
+
+ a {
+    color: #0052c2;
  }
